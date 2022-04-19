@@ -6,7 +6,7 @@ export const HomeCard = (home: Home) => (
         <span className="text-sm font-bold text-blue-900">{home.price}</span>
       </div>
     </div>
-    <img className="w-full h-48 bg-cover" src={home.picture} alt="home picture" />
+    <img className="w-full h-48 bg-cover object-cover" src={home.picture} alt="home picture" />
     <div className="pb-2">
       <div className="pt-2">
         <i className="cursor-pointer far fa-heart"></i>
